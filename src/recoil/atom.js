@@ -1,6 +1,6 @@
 import { atom } from 'recoil';
 
-const MOCK_DATA = atom({
+export const MOCK_DATA = atom({
   key: 'MOCK_DATA',
   default: [
     {
